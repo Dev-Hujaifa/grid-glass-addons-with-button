@@ -1,0 +1,122 @@
+.egup-grid{
+  display:grid;
+  gap:24px;
+}
+.egup-media svg{
+  display:inline-block;
+}
+
+.egup-card{
+  padding:24px;
+  border-radius:18px;
+  transition:.4s ease;
+}
+
+.egup-card:hover{
+  transform:translateY(-8px);
+}
+.egup-card.preset-glass{
+  background:rgba(255,255,255,.15);
+  backdrop-filter:blur(18px);
+  border:1px solid rgba(255,255,255,.3);
+}
+
+.egup-card.preset-modern{
+  background:#212529;
+  color:#fff;
+}
+
+.egup-card.preset-classic{
+  background:#fff;
+  border:1px solid #ddd;
+}
+.egup-media{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:15px;
+}
+
+
+.egup-media img{
+  transition:.4s ease;
+}
+
+.egup-media i{
+  font-size:40px;
+  color:#8942FE;
+  transition:.4s ease;
+}
+
+.egup-card:hover .egup-media img{
+  transform:scale(1.08);
+}
+.egup-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  padding:10px 22px;
+  border-radius:14px;
+  text-decoration:none;
+  cursor:pointer;
+  transition:.4s ease;
+}
+.egup-btn.media-top{flex-direction:column;}
+.egup-btn.media-bottom{flex-direction:column-reverse;}
+.egup-btn.media-left{flex-direction:row;}
+.egup-btn.media-right{flex-direction:row-reverse;}
+
+.egup-btn.preset-glass{
+  background:rgba(255,255,255,.2);
+  backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,.25);
+}
+
+.egup-btn.preset-solid{
+  background:#8942FE;
+  color:#fff;
+}
+
+.egup-btn.preset-outline{
+  border:2px solid #8942FE;
+  background:transparent;
+  color:#8942FE;
+}
+
+.egup-btn.preset-neon{
+  background:#8942FE;
+  color:#fff;
+  box-shadow:0 0 20px rgba(137,66,254,.7);
+}
+
+.egup-btn.preset-gradient{
+  background:linear-gradient(135deg,#8942FE,#D4CDFF);
+  color:#fff;
+}
+
+.egup-btn.preset-soft{
+  background:#E6E8EC;
+}
+.egup-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 12px 30px rgba(137,66,254,.35);
+}
+/* GLASS */
+.egup-grid.preset-glass .egup-card{
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255,255,255,0.25);
+}
+
+/* MODERN */
+.egup-grid.preset-modern .egup-card{
+  background:#ffffff;
+  box-shadow:0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* CLASSIC */
+.egup-grid.preset-classic .egup-card{
+  background:#f7f7f7;
+  border:1px solid #ddd;
+}
