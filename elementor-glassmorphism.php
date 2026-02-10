@@ -1,18 +1,13 @@
 <?php
-/**
- * Plugin Name: Grid Glass Addons With Button
- * Description: Glassmorphism Elementor Widgets (Card Grid & Button)
- * Version: 1.0.0
- * Author: ADNAN
- * Author URI: https://github.com/Dev-Hujaifa
- * Text Domain: egup-glass-addon
- * Domain Path: /languages
- * Requires at least: 5.8
- * Tested up to: 6.4
- * Requires PHP: 7.4
- * License: GPL v2 or later
- * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- */
+/*
+Plugin Name: Grid Glass Addons With Button
+Description: Elegant Glassmorphism Elementor Addons including Card Grid and Advanced Button widgets.
+Version: 1.0.0
+Author: MD.ABU HOJAIFA
+Author URI: https://github.com/Dev-Hujaifa
+License: GPLv2 or later
+Text Domain: grid-glass-addons-with-button
+*/
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
